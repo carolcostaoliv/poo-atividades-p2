@@ -36,7 +36,7 @@ class Contato:
         return self.__email
     
     def set_fone(self, f):
-        if f == "": raise ValueError("Nome não pode ser vazio.")
+        if f == "": raise ValueError("O número de telefone não pode ser vazio.")
         self.__fone = f
     def get_fone(self):
         return self.__fone
